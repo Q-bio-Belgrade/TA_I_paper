@@ -3,6 +3,8 @@
 % Author: Sofija Markovic
 % Date: 08/12/2023
 
+% Dependencies:
+% rescaled_mdl1_odes_1.m - for solving rescaled model 1 ODE
 clear
 % parameters for stochastic simulations:
 S_vec = 0.25;
