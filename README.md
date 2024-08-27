@@ -17,8 +17,6 @@ Below is a list of scripts along with their corresponding figures from the paper
 - **`typeI_mdl1_single_stochastic.m`**: Reproduces Figure 3
 - **`stability_panel_mdl2`**: Reproduces Figure S1
 
-  *Additional scripts and their corresponding figures will be listed here. Please update as necessary.*
-
 ## Phase Portrait Plotter
 
 - **Phase Portrait Plotter**: Modified version of the original code (available at [MathWorks File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/81026-phase-portrait-plotter)) used for Figure S2. The modifications were made for visual consistency with the paper's figures.
