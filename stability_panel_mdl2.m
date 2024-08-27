@@ -1,4 +1,4 @@
-%% Drawing Model 2 combined stability diagram panel
+% Drawing Model 2 combined stability diagram panel
 % This code draws panel including both S vs r double bifurcation
 % diagram (stability diagram) and six single bifurcation diagrams for S and r values indicated
 % by lines in stability diagram. 
@@ -6,9 +6,16 @@
 % Sofija Markovic
 % 9/4/2024
 
+% Dependencies
+% r_bifurcation_diagram_mdl2.m  - draws bifurcation diagrams in  Fig. S1 E and F
+% r_bifurcation_diagram_log_mdl2.m - draws bifurcation diagram in Fig. S1 G, where H is on log scale
+% s_bifurcation_diagram_log_small_r_mdl2.m - draws bifurcation diagram in Fig. S1 B
+% s_bifurcation_diagram_log_mdl2.m - draws bifurcation diagram in Fig. S1 C
+% s_bifurcation_diagram_log_large_r_mdl2.m - draws bifurcation diagram in Fig. S1 D
+
 clear
 
-%% Set Figure Properties
+% Set Figure Properties
 
 % Stability diagram formatting:
 line_label_fs = 18;
@@ -52,7 +59,7 @@ switch panel
         error('Please state panel as integer 1, 2 or 3')
 end
 
-%% Calculations:
+% Calculations:
 
 % set the values of H:
 p1 = [2,3,0,0,-2,-1];
@@ -70,7 +77,7 @@ r_vec = 0.0001:0.0001:3;
 X = [0, r]; 
 Y = [0, s];
 
-%% S vs r stability diagram
+% S vs r stability diagram
 
 switch panel
     case 1
@@ -121,7 +128,7 @@ end
 hold off
 
 
-%% r diagram for S  = 0.33
+% r diagram for S  = 0.33
 switch panel 
     case 1
         nexttile
@@ -153,7 +160,7 @@ if bd_label == true
     pos_x = min(xlim) + range_x*0.1;
     text(pos_x, pos_y,'E', 'Horiz','right', 'Vert','bottom', 'FontSize',annot_font)
 end
-%% r diagram for S  = 0.2
+% r diagram for S  = 0.2
 
 switch panel 
     case 1
@@ -196,7 +203,7 @@ ArrowUp = annotation('arrow','LineStyle','--','LineWidth',2);
 ArrowUp.Parent = gca;
 ArrowUp.X = [1.65,1.65]; 
 ArrowUp.Y = [1.15 ,3.7];
-%% r diagram for S  = 0.07
+% r diagram for S  = 0.07
 switch panel 
     case 1
         nexttile
@@ -231,7 +238,7 @@ if bd_label == true
     text(pos_x, pos_y,'G', 'Horiz','right', 'Vert','bottom', 'FontSize',annot_font)
 end
 
-%% S diagram for r  = 0.1
+% S diagram for r  = 0.1
 switch panel 
     case 1
         nexttile
@@ -266,7 +273,7 @@ if bd_label == true
     text(pos_x, pos_y,'B', 'Horiz','right', 'Vert','bottom', 'FontSize',annot_font)
 end
 
-%% S diagram for r  = 1.5
+% S diagram for r  = 1.5
 switch panel 
     case 1
         nexttile
@@ -300,7 +307,7 @@ if bd_label == true
     text(pos_x, pos_y,'C', 'Horiz','right', 'Vert','bottom', 'FontSize',annot_font)
 end
 
-%% S diagram for r  = 2.8
+% S diagram for r  = 2.8
 switch panel 
     case 1
         nexttile
