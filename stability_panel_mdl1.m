@@ -75,7 +75,7 @@ r_vec = 0.0001:0.0001:2;
 X = [0, r]; 
 Y = [0, s];
 
-%% S vs r stability diagram
+% S vs r stability diagram
 
 switch panel
     case 1
