@@ -1,7 +1,7 @@
 % Drawing Model 2 combined stability diagram panel
-% This code draws panel including both S vs r double bifurcation
+% This code draws a panel including both S vs r double bifurcation
 % diagram (stability diagram) and six single bifurcation diagrams for S and r values indicated
-% by lines in stability diagram. 
+% by lines in the stability diagram (Figure S1)
 
 % Sofija Markovic
 % 9/4/2024
