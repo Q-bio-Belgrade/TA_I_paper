@@ -1,6 +1,6 @@
 function zero_vec = r_bifurcation_diagram_log_mdl2(r_vec,s,axis_font, label_font, colormap,lw)
-% r_bifurcation_diagram draws H vs r_vec bifurcation diagram for type I TA
-% model 2 with H on a logarithmic scale
+% r_bifurcation_diagram_log_mdl2 draws H vs r_vec bifurcation diagram for type I TA
+% model 2 with H on a logarithmic scale (Figure S1 G)
 %   This function draws a bifurcation diagram for the given value
 %   of parameter s and a set of values of parameter r given in r_vec, with H on log scale:
 
