@@ -9,7 +9,7 @@
 % Dependencies
 % r_bifurcation_diagram_mdl1.m  - draws bifurcation diagrams in Fig. 2 E and F
 % r_bifurcation_diagram_log_mdl1.m - draws bifurcation diagram in Fig. 2 G, where H is on log scale
-% s_bifurcation_diagram_log_mdl.m - draws bifurcation diagrams in Fig. 2 B and C
+% s_bifurcation_diagram_log_mdl1.m - draws bifurcation diagrams in Fig. 2 B and C
 % s_bifurcation_diagram_log_large_r_mdl1.m - draws bifurcation diagram in Fig. 2 D
 
 
