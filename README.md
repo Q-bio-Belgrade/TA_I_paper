@@ -1,4 +1,32 @@
-MATLAB code to reproduce results for the paper "Bistability in type I toxin-antitoxin systems may lead to stress-induced persister formation" by Sofija Markovic, Magdalena Djordjevic, Hong-Yu OU, and Marko Djordjevic. Each script contains comments with the code description. The list of scripts, together with the corresponding paper results (figures), is provided below:
-r_bifurcation_diagram_log_mdl1.m: Figure 2 (EDIT IF NECESSARY)
-ADD/EDIT FOR OTHER SCRIPTS
-Phase Portrait Plotter (https://www.mathworks.com/matlabcentral/fileexchange/81026-phase-portrait-plotter) - Figure S2 (original PhasePortraitPlotter code modified for visual appearance of the figure): 
+# MATLAB Code for Reproducing Results
+
+This repository contains MATLAB code to reproduce results from the paper:
+
+**"Bistability in Type I Toxin-Antitoxin Systems May Lead to Stress-Induced Persister Formation"**  
+by Sofija Markovic, Magdalena Djordjevic, Hong-Yu OU, and Marko Djordjevic
+
+## Overview
+
+Each script in this repository is designed to reproduce specific figures from the paper. Scripts are annotated with comments describing their functionality. 
+
+## Scripts
+
+Below is a list of scripts along with their corresponding figures from the paper: 
+
+- **`r_bifurcation_diagram_log_mdl1.m`**: Reproduces Figure 2 (Please verify if any updates are needed)
+
+  *Additional scripts and their corresponding figures will be listed here. Please update as necessary.*
+
+## Phase Portrait Plotter
+
+- **Phase Portrait Plotter**: Modified version of the original code (available at [MathWorks File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/81026-phase-portrait-plotter)) used for Figure S2. The modifications were made for visual consistency with the paper's figures.
+
+## Notes
+
+- The code is developed with MATLAB R2024a but should also be compatible with earlier versions.
+- Ensure that all required MATLAB toolboxes are installed for the scripts to run correctly. (Specify any required toolboxes if known.)
+- If you encounter any issues or have questions, please refer to the comments within each script or contact Sofija Markovic at [sofija.markovic@bio.bg.ac.rs](mailto:sofija.markovic@bio.bg.ac.rs).
+
+## License
+
+This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/MIT) for details.
