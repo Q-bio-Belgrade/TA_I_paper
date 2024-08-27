@@ -1,6 +1,6 @@
 function zero_vec = r_bifurcation_diagram_log_mdl1(r_vec,s,axis_font, label_font, colormap,lw, ls)
 % r_bifurcation_diagram draws H vs r_vec bifurcation diagram for type I TA
-% model 1
+% model 1 with H on a logarithmic scale
 %   This function draws a bifurcation diagram for the given value
 %   of parameter s and a set of values of parameter r given in r_vec, with H on log scale:
 
@@ -57,9 +57,6 @@ for i = 1:lena
 end
 
 
-% plot( r_low_vec , log(low_zero_vec) , 'b-' , r_unstable_vec , log(unstable_zero_vec) , 'g--' , r_high_vec , log(high_zero_vec) , 'r-' )  ;
-% xlabel('r')
-% ylabel('log(H)')
 
 plot(r_low_vec, log(low_zero_vec), Color=colormap(1,:), LineWidth=lw, LineStyle= ls{1})
 hold on
