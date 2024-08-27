@@ -1,13 +1,13 @@
-% Type I TA model 1: drawing single srochastic sim + low and high
-% determnnistic state
+% Type I TA model 1: drawing single stochastic sim + low and high
+% deterministic state (Figure 3)
 % Author: Sofija Markovic
 % Date: 08/12/2023
 
 clear
-%% parameters for stochastic simulations:
+% parameters for stochastic simulations:
 S_vec = 0.25;
 r_vec = 0.5;
-KH_vec = 100;
+KH_vec = 80;
 parfor i = 1:10
     for S=S_vec
         for r = r_vec
