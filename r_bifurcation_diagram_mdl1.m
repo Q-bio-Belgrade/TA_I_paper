@@ -1,6 +1,6 @@
 function zero_vec = r_bifurcation_diagram_mdl1(r_vec,s,axis_font, label_font, colormap,lw, ls)
 % r_bifurcation_diagram draws H vs r_vec bifurcation diagram for TA type I
-% model 1
+% model 1 (Figure 2 E and F)
 %   This function draws a bifurcation diagram for the given value of
 %   parameter s and a set of values for parameter r given in r_vec:
 
