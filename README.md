@@ -7,7 +7,7 @@ by Sofija Markovic, Magdalena Djordjevic, Hong-Yu OU, and Marko Djordjevic
 
 ## Scripts
 
-Each script in this repository is designed to reproduce the paper results. Scripts are annotated with comments describing their functionality. 
+The scripts in this repository are provided to reproduce the results presented in the paper. Each script is thoroughly documented with comments that explain its functionality. Where applicable, dependencies on other scripts (functions) are noted in the comments.
 
 ## Phase Portrait Plotter
 
