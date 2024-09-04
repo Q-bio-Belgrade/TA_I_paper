@@ -5,17 +5,9 @@ This repository contains MATLAB code to reproduce results from the paper:
 **"Bistability in Type I Toxin-Antitoxin Systems May Lead to Stress-Induced Persister Formation"**  
 by Sofija Markovic, Magdalena Djordjevic, Hong-Yu OU, and Marko Djordjevic
 
-## Overview
-
-Each script in this repository is designed to reproduce specific figures from the paper. Scripts are annotated with comments describing their functionality. 
-
 ## Scripts
 
-Below is a list of scripts along with their corresponding figures from the paper: 
-
-- **`stability_panel_mdl1`**: Reproduces Figure 2
-- **`typeI_mdl1_single_stochastic.m`**: Reproduces Figure 3
-- **`stability_panel_mdl2`**: Reproduces Figure S1
+Each script in this repository is designed to reproduce the paper results. Scripts are annotated with comments describing their functionality. 
 
 ## Phase Portrait Plotter
 
